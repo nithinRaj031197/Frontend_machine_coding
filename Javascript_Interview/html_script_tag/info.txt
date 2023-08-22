@@ -1,0 +1,30 @@
+What is use of defer and async in script tag of html?
+
+    Defer:
+        1. defer is an attribute used in the script tag within html file.
+        2. When defer is added, the browser will parse HTML contents and simultaneouly fetch the external
+            script.
+        3. The script is loaded only after the HTML contents is completed.
+
+        <script src="path-to-your-script.js" defer></script>
+
+
+    Async: 
+        1. Async is an attribute used in the script tag within html file.
+        2. The script will be fetched asynchronously along with the html contents, and executed
+            as soon as its available.
+        3. This can potentially lead to out-of-order execution, as script might load before rest of the 
+            HTML elements is parsed.
+
+            <script src="path-to-your-script.js" async></script>
+
+2. What is DOM?
+
+    * DOM stands for document object model.
+    * It is a programming interface for web documents.
+    * It represents a web pages content similar to tree-like structure.
+
+
+3. Critical Rendering Path:
+    * Sequence of steps where we use HTML, CSS, JS to render inteeractive web pages.
+    
