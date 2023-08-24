@@ -1,0 +1,71 @@
+Reactjs:
+    * It iss an open-source JavaScript library for building user interfaces (UIs) 
+        and user interface components.
+    * Specially Designed for,
+        1. Creating  reusable components
+        2. State Management
+        3. Rendering of Componets efficeiently.
+
+    * Key features and concepts of React include:
+        1. Component Based Architecture.
+        2. Virtual DOM
+        3. Unidirectional Data Flow.
+        4. Reusable components
+        5. State and LifeCycle
+        6. Hooks(Introduced from 16.8)
+
+2. What is JSX?
+    * It stands for JavaScript Extension / JavaScript XML
+    * its a HTML like structure, which describes how UI looks like.
+    * JSX is modern javascript, where babel converts to Browser compatible JS.
+
+    Babel: Its  a transpiler, which converts Modern JS(JSX) to Browser Compatible JS.
+
+3. State:
+    * Its a React Object, that contains data or information of components.
+    * It's mutable and can change over time.
+
+4. Props:
+    * Its a React Object to pass data from one component to another component.
+    * Its immutable.
+
+5. React Hooks:
+    React Hooks are functions introduced in React 16.8 that allow developers to use state 
+    and other React features in functional components without the need for class components. 
+
+6. React Fragments:
+    * Group multiple JSX elements
+    * Without adding extra DOM element to UI
+
+7. Key and List:
+    It is a special attribute that you use when rendering lists of elements to help React identify each item in the list.
+
+8. Types of Hooks:
+    1. useState:
+        * Its a built in React hooks used in functional components to 
+          "manage the state within their function bodies".
+
+    2. useEffect:
+        * "Allows you to perform side effects in functional components".
+        * Side effects are like data fetching, subscriptions, manually changing the DOM, and more.
+
+        * The useEffect Hook takes two arguments:
+            A function that contains the code for the side effect you want to perform.
+            An optional array of dependencies that specifies when the effect should run.
+
+            Example:
+            import React, { useState, useEffect } from 'react';
+
+            function MyComponent() {
+            useEffect(() => {
+                // Code for the side effect
+
+                return () => {
+                // Cleanup function (optional)
+                };
+            }, [/* dependencies */]);
+
+            // Component rendering and logic
+            }
+        
+

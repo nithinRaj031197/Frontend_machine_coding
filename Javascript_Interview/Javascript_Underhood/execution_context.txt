@@ -1,0 +1,49 @@
+Execution Context:
+    When you run any Javascript, a special environment is created to handle the transformation and execution of code.
+                                                    (or)
+    A special environment is created for execution of JS code.
+
+'var' Variable lifecycle:
+
+    * Creation Phase
+                        var x ---> declaration
+                            |
+            x = undefined   |---> Initialize
+
+
+    * Execution Phase:
+
+            x = 10 ----> Asssign
+
+
+'let' Variable lifecycle:
+
+    * Creation Phase:
+            let x ---> declaration
+
+    * Temorary Dead Zone:
+            x is not accessible
+                            
+    * Execution Phase:
+
+            x = undefined   ---> Initialize    
+
+            x = 10          ----> Asssign
+
+
+
+Blocking: 
+    Operations that bloak execution until that operation completes
+
+Non-Blocking:
+    Code that does not block execution.
+
+
+Garbage collection:
+    Languages automatically allocates the memory when objects are 
+    creted and frees it when they are not used anymore.
+
+
+
+Primitive Type: Data stored in stack.
+Reference Type: Data stored in Heap. 
