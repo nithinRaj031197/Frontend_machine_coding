@@ -38,7 +38,8 @@ Reactjs:
     * Without adding extra DOM element to UI
 
 7. Key and List:
-    It is a special attribute that you use when rendering lists of elements to help React identify each item in the list.
+    * It is a special attribute that you use when rendering lists of elements to help React identify each item in the list.
+    * It's a way of giving each item a unique identifier so that React can efficiently update the UI when the list changes.
 
 8. Types of Hooks:
     1. useState:

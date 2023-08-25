@@ -1,0 +1,12 @@
+1. Call:
+    * This method invokes a function by specifying the owner object.
+    * This method also allows object to use function of another object.
+    * Also accepts arguments.
+
+
+2. Apply:
+    * Its similar to call method, but here it takes arguments as an array.
+
+
+3. Bind:
+    * Here, it returns a function, where this keyword bounds to owner object.
