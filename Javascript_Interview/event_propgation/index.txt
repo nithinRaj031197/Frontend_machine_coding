@@ -1,0 +1,21 @@
+1. Event Propogation:
+    * Refers to process by which events are handled and they are passed through DOM hirerachy when they occurs as HTML elements.
+    * When an event, such as a mouse click or a keypress, happens on an element, it can trigger event handlers not 
+      only on that specific element but also on its parent elements and even higher up the DOM tree.
+
+2. There are two main phases of event propagation:
+
+    * Bubbling Phase:
+        In the bubbling phase, the event starts from the target element that triggered the event and bubbles up
+        through its ancestors in the DOM hierarchy, triggering event handlers on each ancestor along the way.
+
+    * Capturing Phase:
+        In the capturing phase (also known as trickling phase), the event starts from the top-level ancestor and
+        moves down the DOM hierarchy towards the target element, triggering event handlers on each ancestor.
+
+3. Event Delegation:
+    * Attaching an event listener to higher-level element(such as parent or ancestor element)
+        in DOM hierarchy, rather than attaching individual child elements.
+
+
+    

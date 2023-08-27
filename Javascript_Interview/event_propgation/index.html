@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Propgation</title>
+    <style>
+      /* div,
+            form,
+            button {
+              border: 1px solid red;
+              padding: 10px;
+            } */
+      .main_container {
+        position: relative;
+        min-height: 100vh;
+      }
+      .outer_container {
+      }
+      .modal_container {
+        display: none;
+        position: absolute;
+        top: 0;
+        background-color: rgba(221, 221, 221, 0.5);
+
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+      }
+      .modal {
+        border: 1px solid black;
+        border-radius: 10px;
+        background: #fff;
+        width: 50%;
+        height: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div>
+      DIV Space
+      <form>
+        FORM Space
+        <input type="text" />
+        <button>Button Bro</button>
+      </form>
+    </div> -->
+
+    <div class="main_container">
+      <ul id="parent">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <div class="outer_container">
+        <p>Hi guys</p>
+        <button class="open_modal_button">Open Modal</button>
+      </div>
+
+      <div class="modal_container">
+        <div class="modal">modal Content</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -28,3 +28,6 @@ What is use of defer and async in script tag of html?
 3. Critical Rendering Path:
     * Sequence of steps where we use HTML, CSS, JS to render inteeractive web pages.
     
+
+4. Temporal Dead Zone:
+    The period of time during which a variable cannot be accessed due to being in an unintialized state.
