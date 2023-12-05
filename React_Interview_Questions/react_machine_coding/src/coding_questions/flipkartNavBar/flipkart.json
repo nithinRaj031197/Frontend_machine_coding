@@ -1,0 +1,50 @@
+{
+  "navLinks": [
+    {
+      "category": "Grocery",
+      "subCategories": []
+    },
+    {
+      "category": "Fashions",
+      "subCategories": [
+        {
+          "name": "Men's Top Wear",
+          "items": ["Men's T-Shirt", "Men's Casual", "Men's Kurtas"]
+        },
+        {
+          "name": "Men's Bottom Wear",
+          "items": ["Men's Jeans", "Men's Trousers", "Men's Shorts"]
+        },
+        {
+          "name": "Women Ethnic",
+          "items": ["Women Sarees", "Women Casual", "Women Kurtas"]
+        }
+      ]
+    },
+    {
+      "category": "Electronics",
+      "subCategories": [
+        {
+          "name": "Audio",
+          "items": ["Bluetoohs", "Headset", "Speakers"]
+        },
+        {
+          "name": "Gaming",
+          "items": ["Gaming Keyboard", "Gaming Mouse", "Gaming Consoles"]
+        },
+        {
+          "name": "Cameras and Accessories",
+          "items": ["DSLR", "Tripod", "Drone"]
+        }
+      ]
+    },
+    {
+      "category": "Travels",
+      "subCategories": []
+    },
+    {
+      "category": "Two Wheelers",
+      "subCategories": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+body {
+  min-height: 100vh;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  place-items: center;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  border: 1px solid slateblue;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.product_details {
+  padding: 10px;
+}
+
+.pagination_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 600px 0;
+}
+
+.pagination_container > button {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.pagination_container > p {
+  padding: 10px;
+  font-size: 20px;
+}
