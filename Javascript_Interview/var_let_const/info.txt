@@ -1,0 +1,29 @@
+1. Scope: 
+    Region in a program where variables exits and recognized and not beyond that cant be recognized.
+
+2. Global Scope: 
+    * Variables and functons that accessible throughot your entire codebase.
+
+    const globalVar = "I'm a global variable";
+
+    function globalFunction() {
+    console.log("This is a global function.");
+    }
+
+    console.log(globalVar); // Accessible
+    globalFunction();       // Accessible
+
+
+3. Functional Scope: 
+    * Variables declared within the function and accessible within that function.
+
+    * This prevents accidental conflicts of variables of same name in other parts of the code.
+
+    function functionScopeExample() {
+    const localVar = "I'm a local variable";
+
+    console.log(localVar); // Accessible
+    }
+
+    functionScopeExample();
+    // console.log(localVar); // Error: localVar is not defined (out of scope)
